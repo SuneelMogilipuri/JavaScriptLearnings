@@ -29,7 +29,6 @@ function appendChildren(parent, children){
 }
 function imgClick(ele){
   document.getElementById('selected-lang').value = ele.parentElement.textContent;
-  // console.log(ele);
 }
 var myLearning = document.getElementById('my-learnings');
 appendChildren(myLearning, list);
